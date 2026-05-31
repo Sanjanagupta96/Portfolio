@@ -64,27 +64,27 @@ function Contact() {
           className="space-y-5"
           onSubmit={(e) => e.preventDefault()}
         >
-          <input
+          {/* <input
             type="text"
             placeholder="Your Name"
             className="w-full p-3 rounded-lg bg-slate-800 border border-slate-700 focus:border-blue-500 outline-none transition"
-          />
-          <input
+          /> */}
+          {/* <input
             type="email"
             placeholder="Your Email"
             className="w-full p-3 rounded-lg bg-slate-800 border border-slate-700 focus:border-blue-500 outline-none transition"
-          />
-          <textarea
+          /> */}
+          {/* <textarea
             rows={5}
             placeholder="Your Message"
             className="w-full p-3 rounded-lg bg-slate-800 border border-slate-700 focus:border-blue-500 outline-none transition resize-none"
-          />
-          <button
+          /> */}
+          {/* <button
             type="submit"
             className="px-6 py-3 bg-blue-500 rounded-lg hover:bg-blue-600 transition w-full sm:w-auto"
           >
             Send Message
-          </button>
+          </button> */}
         </motion.form>
       </div>
 

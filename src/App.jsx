@@ -2,6 +2,7 @@ import Sidebar from "./Components/Sidebar";
 import PageBubbles from "./Components/PageBubbles";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
+
 import Skills from "./Pages/Skills";
 import Projects from "./Pages/Projects";
 import Internship from "./Pages/Internship";
@@ -18,6 +19,7 @@ function App() {
         <div className="relative z-10 max-w-4xl mx-auto">
           <Home />
           <About />
+         
           <Skills />
           <Projects />
           <Internship />

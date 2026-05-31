@@ -41,8 +41,12 @@ export const profile = {
 
   social: {
     github: "https://github.com/Sanjanagupta96", // ← apna GitHub link
-    linkedin: "https://www.linkedin.com/in/sanjanagupta88/", // ← apna LinkedIn link
-    // portfolio: "https://sanjanagupta96.github.io/portfolio", // ← apna portfolio link
+    linkedin: "https://www.linkedin.com/in/sanjana-gupta-1359a629a/", // ← apna LinkedIn link
+   
+    Leetcode: "https://leetcode.com/u/sanjanagupta8860/", // ← apna LeetCode link
+    GeeksforGeeks: "https://www.geeksforgeeks.org/profile/sanjanagup23f1", // ← apna 
+    // GeeksforGeeks link
+    GeeeksforGeeks: "https://www.geeksforgeeks.org/profile/sanjanaguj9u7", // ← apna GeeksforGeeks link
   },
 
   resumeFile: "/Sanjana resume.pdf", // public folder mein resume rakhein
@@ -161,5 +165,23 @@ export const profile = {
     "Built a responsive Flipkart Clone using HTML, CSS, and Bootstrap while learning modern frontend development practices.",
   certificate: "/softpro.jpg",
 },
+
+{
+  title: "GeeksforGeeks Certificate of Excellence",
+ 
+ org: "GeeksforGeeks",
+  description:
+    "Advance JAVA Course.",
+  certificate: "/AdvanceJava.PDF",
+
+},
+{
+  title: "NPTEL Verified Certificate",
+ org: "Conducted by IIT Madras",
+
+  description:"Introduction to Machine Learning.",
+  certificate: "/Nptel.pdf",
+},
+
   ],
 };
