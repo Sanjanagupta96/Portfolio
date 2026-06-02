@@ -94,7 +94,7 @@ export const profile = {
       tech: ["Java","Servlets","JSP", "MySQL", "React",
         "Bootstrap","HTML","CSS"
       ],
-      github: "https://github.com/Sanjanagupta96/Public-Utility-Management-System", // ← apna repo link
+      github: "https://github.com/Sanjanagupta96/Nagar-Nigam-Complaint-Tracker", // ← apna repo link
       live: null,
     },
    {
