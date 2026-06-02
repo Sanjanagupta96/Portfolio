@@ -94,7 +94,7 @@ export const profile = {
       tech: ["Java","Servlets","JSP", "MySQL", "React",
         "Bootstrap","HTML","CSS"
       ],
-      github: "https://github.com/Sanjanagupta96/Nagar-Nigam-Tracking-System", // ← apna repo link
+      github: "https://github.com/Sanjanagupta96/Public-Utility-Management-System", // ← apna repo link
       live: null,
     },
    {
@@ -112,7 +112,7 @@ export const profile = {
     "Bootstrap",
     "JavaScript"
   ],
-  github: "https://github.com/your-username/abhyantra",
+  github: "https://github.com/Sanjanagupta96/Abhayantra",
   live: null,
 },
 {
@@ -154,8 +154,8 @@ export const profile = {
   description:
     "Applied innovation and design thinking principles to develop a Nagar Nigam Problem Tracking System, enhancing citizen complaint management and issue resolution workflows. Also completed Python for Data Science and Advanced Figma workshops.",
   certificate: "/Innovation & Design Thinking _ Sanjana Gupta.pdf",
-  certificate: "/PythonForDataScience.pdf",
-  certificate: "/AdvanceFigma.pdf",
+  
+ 
 },
 {
   title: "Web Technology Workshop",
@@ -183,5 +183,28 @@ export const profile = {
   certificate: "/Nptel.pdf",
 },
 
+{
+  title: "Python for Data Science",
+ org: "Era Foundation",
+
+  description:"Python for Data Science.",
+  certificate: "/PythonForDataScience.pdf",
+},
+
+{
+  title: "Advance Figma Workshop",
+ org: "Era Foundation",
+
+  description:"Figma for UI/UX Design.",
+   certificate: "/AdvanceFigma.pdf",
+},
+
+{
+  title: "Web Development intern",
+ org: "CodeSoft Technologies",
+
+  description:"Web development internship.",
+   certificate: "/Codesoft.pdf",
+},
   ],
 };
