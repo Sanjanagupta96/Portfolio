@@ -11,7 +11,7 @@ export const profile = {
   typewriterRoles: [
     "Software Developer",
     "Full Stack Developer",
-    "Web & Developer",
+    "Web Developer",
     "UI designer",
     "Java Developer",
   ],
