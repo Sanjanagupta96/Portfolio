@@ -49,7 +49,7 @@ export const profile = {
     GeeeksforGeeks: "https://www.geeksforgeeks.org/profile/sanjanaguj9u7", // ← apna GeeksforGeeks link
   },
 
-  resumeFile: "/D:/Sanjana resume.pdf", // public folder mein resume rakhein
+  resumeFile: "/Sanjana resume.pdf", // public folder mein resume rakhein
 
   skills: [
     {
