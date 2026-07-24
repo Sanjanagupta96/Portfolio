@@ -36,7 +36,7 @@ export const profile = {
   contact: {
     email: "sanjanagupta886060@gmail.com", // ← apna email yahan likhein
     phone: "+91 9580435819", // ← apna phone yahan likhein
-    location: "Uttar Pradesh, India",
+    location: "Delhi, India",
   },
 
   social: {
