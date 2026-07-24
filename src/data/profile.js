@@ -130,6 +130,14 @@ export const profile = {
   github: "https://github.com/Sanjanagupta96/wells-fargo-task-2",
   live: null,
 },
+{
+  title: "Flipkart Clone",
+  description:
+    "A responsive e-commerce web application replicating Flipkart's core features, including product listings, shopping cart functionality, and user authentication.",
+  tech: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+  github: "https://github.com/Sanjanagupta96/FlipkartCLone",
+  live: null,
+}
 
   ],
 
