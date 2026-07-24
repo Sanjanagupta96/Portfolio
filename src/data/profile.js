@@ -116,15 +116,18 @@ export const profile = {
   live: null,
 },
 {
-  title: "Flipkart Clone",
+  title: "Software Engineering Job Simulation (Forage) — July 2026",
   description:
-    "A responsive e-commerce website inspired by Flipkart, featuring a modern user interface, product listings, navigation menu, promotional banners, and mobile-friendly design.",
+    "Developed a robust Financial Portfolio Management System backend as part of the Wells Fargo Software Engineering Virtual Experience on Forage. The system models complex financial industry relationships by mapping Advisors to multiple Clients, each owning a dedicated Portfolio containing diverse Securities. Designed and implemented the complete data architecture using Java and Spring Boot, establishing strict relational database rules. Integrated Spring Data JPA to manage complex Object-Relational Mapping (ORM) relationships such as @OneToMany and @OneToOne, ensuring data integrity and optimized persistence layer operations through an embedded database.",
+
   tech: [
-    "HTML",
-    "CSS",
-    "Bootstrap"
+  "Backend Framework: Java 19, Spring Boot 3.0.4",
+  "Data Access / ORM: Spring Data JPA, Hibernate",
+  "Database: H2 In-Memory Relational Database",
+  "Build & Dependency Management: Maven",
+  "Core Concepts: Object-Relational Mapping (ORM), Database Schema Design, Enterprise Application Architecture"
   ],
-  github: "https://github.com/Sanjanagupta96/FlipkartCLone",
+  github: "https://github.com/Sanjanagupta96/wells-fargo-task-2",
   live: null,
 },
 
