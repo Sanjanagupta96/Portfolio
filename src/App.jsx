@@ -10,7 +10,7 @@ import Contact from "./Pages/Contact";
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-950 text-white">
+    <div className="min-h-screen bg-[#050505] text-[#ffffff] selection:bg-neutral-800 selection:text-white">
       <Sidebar />
 
       <main className="relative min-h-screen w-full p-6 pt-24 md:p-10 md:pt-10 md:ml-64 overflow-hidden">

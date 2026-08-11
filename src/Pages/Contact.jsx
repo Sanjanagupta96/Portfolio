@@ -17,15 +17,15 @@ function Contact() {
         initial={{ opacity: 0, x: -30 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        className="text-3xl sm:text-4xl font-bold mb-2"
+        className="text-3xl sm:text-4xl font-extrabold text-white mb-2"
       >
-        Contact <span className="text-blue-400">Me</span>
+        Contact <span className="text-neutral-400">Me</span>
       </motion.h2>
       <motion.p
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        className="text-slate-400 mb-10 max-w-2xl"
+        className="text-neutral-400 mb-10 max-w-2xl"
       >
         Have a project or opportunity? Send a message — I&apos;ll get back to you
         soon.
@@ -40,17 +40,17 @@ function Contact() {
         >
           {contactItems.map(({ icon: Icon, label, value, href }) => (
             <div key={label} className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-blue-500/20 rounded-full flex items-center justify-center text-blue-400">
+              <div className="w-12 h-12 bg-neutral-900 border border-neutral-800 rounded-xl flex items-center justify-center text-white">
                 <Icon />
               </div>
               <div>
-                <p className="text-sm text-slate-400">{label}</p>
+                <p className="text-xs uppercase tracking-wider text-neutral-400 font-semibold">{label}</p>
                 {href ? (
-                  <a href={href} className="text-white hover:text-blue-400 transition">
+                  <a href={href} className="text-white font-semibold hover:text-neutral-300 transition text-base">
                     {value}
                   </a>
                 ) : (
-                  <p className="text-white">{value}</p>
+                  <p className="text-white font-semibold text-base">{value}</p>
                 )}
               </div>
             </div>
@@ -64,31 +64,10 @@ function Contact() {
           className="space-y-5"
           onSubmit={(e) => e.preventDefault()}
         >
-          {/* <input
-            type="text"
-            placeholder="Your Name"
-            className="w-full p-3 rounded-lg bg-slate-800 border border-slate-700 focus:border-blue-500 outline-none transition"
-          /> */}
-          {/* <input
-            type="email"
-            placeholder="Your Email"
-            className="w-full p-3 rounded-lg bg-slate-800 border border-slate-700 focus:border-blue-500 outline-none transition"
-          /> */}
-          {/* <textarea
-            rows={5}
-            placeholder="Your Message"
-            className="w-full p-3 rounded-lg bg-slate-800 border border-slate-700 focus:border-blue-500 outline-none transition resize-none"
-          /> */}
-          {/* <button
-            type="submit"
-            className="px-6 py-3 bg-blue-500 rounded-lg hover:bg-blue-600 transition w-full sm:w-auto"
-          >
-            Send Message
-          </button> */}
         </motion.form>
       </div>
 
-      <footer className="mt-20 pt-8 border-t border-slate-800 text-center text-slate-500 text-sm">
+      <footer className="mt-20 pt-8 border-t border-neutral-800 text-center text-neutral-500 text-sm">
         © {new Date().getFullYear()} {name}. Built with React & Tailwind CSS.
       </footer>
     </section>
